@@ -567,6 +567,7 @@ g_settings_mapping_is_compatible (GType               gvalue_type,
            gvalue_type == G_TYPE_UINT   ||
            gvalue_type == G_TYPE_INT64  ||
            gvalue_type == G_TYPE_UINT64 ||
+           gvalue_type == G_TYPE_FLOAT ||
            gvalue_type == G_TYPE_DOUBLE)
     ok = (g_variant_type_equal (variant_type, G_VARIANT_TYPE_INT16)  ||
           g_variant_type_equal (variant_type, G_VARIANT_TYPE_UINT16) ||
